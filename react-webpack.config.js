@@ -25,7 +25,8 @@ module.exports = {
         use: [
           { loader: 'style-loader' },
           { loader: 'css-loader' },
-          { loader: 'stylus-loader' },
+          // Add the below line if you want to use stylus
+          //{ loader: 'stylus-loader' },
         ],
       },
       {
